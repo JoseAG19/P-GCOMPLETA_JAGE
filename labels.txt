@@ -1,0 +1,6 @@
+0 Asco
+1 Tristeza
+2 Felicidad
+3 Seriedad
+4 Confianza
+5 Enojo

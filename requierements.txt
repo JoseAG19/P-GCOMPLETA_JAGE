@@ -3,3 +3,8 @@ geopandas
 openpyxl
 numpy
 json
+streamlit-webrtc
+opencv-python-headless
+Pillow
+tensorflow==2.12
+keras

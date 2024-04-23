@@ -1,3 +1,5 @@
 streamlit
 geopandas
 openpyxl
+numpy
+json

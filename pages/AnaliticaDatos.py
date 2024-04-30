@@ -2,7 +2,6 @@ import streamlit as st
 st.title("DATOS: COMPONENTE PRINCIPAL")
 import pandas as pd
 import numpy as np
-import geopandas as gpd
 import json
 
 with open('Mapa de Accidentalidad Vial Municipio de Medellín 2016.geojson', "r") as read_file:

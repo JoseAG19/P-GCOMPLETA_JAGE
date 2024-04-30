@@ -1,10 +1,9 @@
 import streamlit as st
+import cv2
 import numpy as np
 #from PIL import Image
 from PIL import Image as Image, ImageOps as ImagOps
 from keras.models import load_model
-
-st.title("IA: UNA OPORTUNIDAD PARA MEJORAR LAS CIUDADES")
 
 model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
@@ -44,3 +43,4 @@ if img_file_buffer is not None:
       st.header('Confianza, con Probabilidad: '+str( prediction[0][4]))
     if prediction[0][5]>0.4:
       st.header('Enojo, con Probabilidad: '+str( prediction[0][5]))
+

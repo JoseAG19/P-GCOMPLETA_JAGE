@@ -8,4 +8,4 @@ opencv-python-headless
 Pillow
 tensorflow==2.12
 keras
-opencv-python>=4.1.1
+#opencv-python>=4.1.1
